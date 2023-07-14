@@ -1,0 +1,25 @@
+{
+	"name": "@samual/eslint-config",
+	"version": "0.0.1",
+	"description": "Samual's personal eslint configs.",
+	"keywords": [
+		"eslint",
+		"config"
+	],
+	"homepage": "https://github.com/samualtnorman/@samual/eslint-config#readme",
+	"bugs": {
+		"url": "https://github.com/samualtnorman/@samual/eslint-config/issues",
+		"email": "me@samual.uk"
+	},
+	"license": "MIT",
+	"author": "Samual Norman <me@samual.uk> (https://samual.uk/)",
+	"main": "index.yml",
+	"peerDependencies": {
+		"@typescript-eslint/eslint-plugin": "^6.0.0",
+		"@typescript-eslint/parser": "^6.0.0",
+		"eslint-plugin-array-func": "^3.1.8",
+		"eslint-plugin-eslint-comments": "^3.2.0",
+		"eslint-plugin-regexp": "^1.15.0",
+		"eslint-plugin-unicorn": "^47.0.0"
+	}
+}
