@@ -15,11 +15,11 @@
 	"author": "Samual Norman <me@samual.uk> (https://samual.uk/)",
 	"main": "index.yml",
 	"peerDependencies": {
-		"@typescript-eslint/eslint-plugin": "^6.0.0",
-		"@typescript-eslint/parser": "^6.0.0",
-		"eslint-plugin-array-func": "^3.1.8",
+		"@typescript-eslint/eslint-plugin": "^6.15.0",
+		"@typescript-eslint/parser": "^6.15.0",
+		"eslint-plugin-array-func": "^4.0.0",
 		"eslint-plugin-eslint-comments": "^3.2.0",
-		"eslint-plugin-regexp": "^1.15.0",
-		"eslint-plugin-unicorn": "^47.0.0"
+		"eslint-plugin-regexp": "^2.1.2",
+		"eslint-plugin-unicorn": "^49.0.0"
 	}
 }
