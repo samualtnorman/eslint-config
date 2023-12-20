@@ -14,6 +14,8 @@ extends:
 rules:
   no-undef: off
   no-inner-declarations: off
+  prefer-named-capture-group: off
+  radix: off
   no-await-in-loop: warn
   no-unmodified-loop-condition: warn
   no-unused-private-class-members: warn
@@ -43,7 +45,6 @@ rules:
   operator-assignment: warn
   prefer-arrow-callback: warn
   prefer-exponentiation-operator: warn
-  prefer-named-capture-group: warn
   prefer-numeric-literals: warn
   prefer-object-spread: warn
   prefer-promise-reject-errors: warn
@@ -51,7 +52,6 @@ rules:
   prefer-rest-params: warn
   prefer-spread: warn
   prefer-template: warn
-  radix: warn
   yoda: warn
   arrow-spacing: warn
   comma-style: warn
@@ -108,6 +108,8 @@ rules:
   unicorn/prefer-top-level-await: off
   unicorn/no-array-reduce: off
   unicorn/new-for-builtins: off
+  unicorn/prefer-spread: off
+  unicorn/throw-new-error: off
   unicorn/no-null: warn
   unicorn/no-unused-properties: warn
   unicorn/empty-brace-spaces: warn
